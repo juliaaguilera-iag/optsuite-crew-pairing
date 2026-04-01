@@ -34,9 +34,11 @@ flowchart TD
     B[Binary Decision Variables]
     C[Constraint Penalty Encoding]
     D[QUBO Cost Function]
-    E[Pauli Operator Decomposition]
+    E[Pauli Operator 
+    Decomposition]
     F[QAOA Circuit Construction]
-    G[Hybrid Classical–Quantum Optimization Loop]
+    G[Hybrid Classical–Quantum
+    Optimization Loop]
 
     A --> B --> C --> D --> E --> F --> G
 ```
