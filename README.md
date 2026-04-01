@@ -27,19 +27,19 @@ This implementation serves as a domain-specific extension layer on top of the ba
 ## 🏗️ Framework Integration
 
 The workflow implemented in this repository follows:
-Crew Pairing Model
-↓
-Binary Decision Variables
-↓
-Constraint Penalty Encoding
-↓
-QUBO Cost Function
-↓
-Pauli Operator Decomposition
-↓
-QAOA Circuit Construction
-↓
-Hybrid Classical–Quantum Optimization Loop
+
+```mermaid
+flowchart TD
+    A[Crew Pairing Model]
+    B[Binary Decision Variables]
+    C[Constraint Penalty Encoding]
+    D[QUBO Cost Function]
+    E[Pauli Operator Decomposition]
+    F[QAOA Circuit Construction]
+    G[Hybrid Classical–Quantum Optimization Loop]
+
+    A --> B --> C --> D --> E --> F --> G
+```
 
 Crew pairing feasibility requirements such as:
 
